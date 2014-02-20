@@ -64,7 +64,7 @@
 			+'</div>'
 			+'<div class="github-box-download">'
 			+'<div class="updated"></div>'
-			+'<a target="_blank" class="download" href="' + repoUrl + '/zipball/' + repo.default_branch + '"' + ' title="Get an archive of this repository">Download as zip</a>'
+			+'<a target="_blank" class="download" href="' + repoUrl + '/zipball/' + 'gh-pages' + '"' + ' title="Get an archive of this repository">Download as zip</a>'
 			+'</div>'
 			+'</div>'
 		);
