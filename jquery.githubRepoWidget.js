@@ -88,7 +88,7 @@
 				$widget.find('.updated').html('Latest commit to the <strong>' + repo.default_branch + '</strong> branch on ' + pushed_at);
 
 				// Don't show "null" if the repo has no homepage URL.
-				if(repo.homepage != null) $widget.find('.link').append($('<a />').attr('href', repo.homepage).text(repo.homepage));
+				if(repo.homepage != null) $widget.find('.link').append($('<a />').attr('href', 'https://' + repo.homepage).text(repo.homepage));
 			}
 		});
 
